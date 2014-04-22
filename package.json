@@ -1,0 +1,30 @@
+{
+  "name": "consistent_hashing",
+  "description": "Node.js Consistent Hashing Module (Javascript & C++)",
+  "keywords": [
+    "consistent hashing",
+    "hash ring"
+  ],
+  "version": "0.0.1",
+  "author": "Dx.Yang <x6doooo@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/x6doooo/consistent_hashing.git"
+  },
+  "bugs": {
+    "url": "http://github.com/x6doooo/consistent_hashing/issues"
+  },
+  "scripts": {
+    "install": "node-gyp configure build"
+  },
+  "license": "",
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "main": "./lib/index.js",
+  "gypfile": true,
+  "homepage": "https://github.com/x6doooo/consistent_hashing",
+  "directories": {
+    "test": "test"
+  }
+}
